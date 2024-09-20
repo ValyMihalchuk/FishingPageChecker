@@ -9,13 +9,11 @@
 
 **Методы  машинного обучения, из которых мы будем выбирать наиболее подходящий для нашей задачи**
 - *Random Forest*
-Метод случайного леса — алгоритм машинного обучения, заключающийся в использовании ансамбля решающих деревьев. Большой плюс - интерпретируемость ответа модели,  т.е можно сказать, за счет каких критериев модель посчитала данный сайт фишинговым. Этот метод пока нам кажется самым предпочтительным.
-
+Метод случайного леса — алгоритм машинного обучения, заключающийся в использовании ансамбля решающих деревьев.
 - *K-Nearest Neighbour*
 Метод ближайших соседей —  алгоритм для автоматической классификации объектов. В случае использования метода для классификации объект присваивается тому классу, который является наиболее распространённым среди соседей данного элемента, классы которых уже известны.
 Простой в реализации, не самый простой в вычислении (если признаков слишком много).
 - *ANN*
-При всех плюсах и популярности, к сожалению, искусственная нейронная сеть в распространных формах не может объяснить, почему именно такой ответ она выдала. 
 
 **Датасет для обучения**
 Для обучения модели подходит [Phishing Website Dataset](https://archive.ics.uci.edu/dataset/327/phishing+websites). Этот датасет был собран из PhishTank archive, MillerSmiles archive, Google searching operators.
@@ -27,6 +25,5 @@ Phishers can use long URL to hide the doubtful part in the address bar. For exam
 http://federmacedoadv.com.br/3f/aze/ab51e2e319e51502f416dbe46b773a5e/?cmd=_home&amp;dispatch=11004d58f5b74f8dc1e7c2e8dd4105e811004d58f5b74f8dc1e7c2e8dd4105e8@phishing.website.html
 - Age of Domain
 This feature can be extracted from WHOIS database (Whois 2005). Most phishing websites live for a short period of time. By reviewing our dataset, we find that the minimum age of the legitimate domain is 6 months. 
-
 
 
