@@ -18,12 +18,12 @@
 **Датасет для обучения**
 Для обучения модели подходит [Phishing Website Dataset](https://archive.ics.uci.edu/dataset/327/phishing+websites). Этот датасет был собран из PhishTank archive, MillerSmiles archive, Google searching operators.
 Вместе с датасетом там также приведены и подробно описаны признаки. Вот описание нескольких для примера:
-- Using the IP Address
-If an IP address is used as an alternative of the domain name in the URL, such as “http://125.98.3.123/fake.html”, users can be sure that someone is trying to steal their personal information. Sometimes, the IP address is even transformed into hexadecimal code as shown in the following link “http://0x58.0xCC.0xCA.0x62/2/paypal.ca/index.html”. 
-- Long URL to Hide the Suspicious Part
-Phishers can use long URL to hide the doubtful part in the address bar. For example: 
+- Использование IP-адреса
+Если в качестве альтернативы доменному имени в URL-адресе используется IP-адрес, например “http://125.98.3.123/fake.html”, пользователи могут быть уверены, что кто-то пытается украсть их личную информацию. Иногда IP-адрес даже преобразуется в шестнадцатеричный код, как показано в следующей ссылке “http://0x58.0xCC.0xCA.0x62/2/paypal.ca/index.html”. 
+- Длинный URL, чтобы скрыть подозрительную часть
+Фишеры могут использовать длинные URL, чтобы скрыть сомнительную часть в адресной строке. Например:
 http://federmacedoadv.com.br/3f/aze/ab51e2e319e51502f416dbe46b773a5e/?cmd=_home&amp;dispatch=11004d58f5b74f8dc1e7c2e8dd4105e811004d58f5b74f8dc1e7c2e8dd4105e8@phishing.website.html
-- Age of Domain
-This feature can be extracted from WHOIS database (Whois 2005). Most phishing websites live for a short period of time. By reviewing our dataset, we find that the minimum age of the legitimate domain is 6 months. 
+- Возраст домена
+Эта характеристика может быть получена из базы данных WHOIS (Whois 2005). Большинство фишинговых сайтов существует в течение короткого периода времени. После анализа набора данных, было обнаружено, что минимальный возраст легитимного домена составляет 6 месяцев. 
 
 
